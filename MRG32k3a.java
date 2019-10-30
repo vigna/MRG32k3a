@@ -7,10 +7,9 @@ worldwide. This software is distributed without any warranty.
 See <http://creativecommons.org/publicdomain/zero/1.0/>. */
 
 /**
- * A fast, testless implementation of Pierre L'Ecuyer's pseudorandom number
- * generator <a href=
- * "https://pubsonline.informs.org/doi/abs/10.1287/opre.47.1.159">MRG32k3a</a>
- * based on 64-bit integers.
+ * A fast, testless implementation based on 64-bit integers of Pierre 
+ * L'Ecuyer's pseudorandom number generator <a href=
+ * "https://pubsonline.informs.org/doi/abs/10.1287/opre.47.1.159">MRG32k3a</a>.
  *
  * <p>
  * There are three tests in the standard implementation of MRG32k3a: one test to

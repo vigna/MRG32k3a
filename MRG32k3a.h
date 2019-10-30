@@ -11,9 +11,9 @@ See <http://creativecommons.org/publicdomain/zero/1.0/>. */
 #pragma once
 
 /**
- * A fast, testless implementation of Pierre L'Ecuyer's pseudorandom number
- * generator MRG32k3a (https://pubsonline.informs.org/doi/abs/10.1287/opre.47.1.159)
- * based on 64-bit integers.
+ * A fast, testless implementation based on 64-bit integers of 
+ * Pierre L'Ecuyer's pseudorandom number generator MRG32k3a 
+ * (https://pubsonline.informs.org/doi/abs/10.1287/opre.47.1.159).
  *
  * There are three tests in the standard implementation of MRG32k3a: one test to
  * correct the combined output, and two tests to correct negative modular
