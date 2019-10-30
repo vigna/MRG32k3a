@@ -37,3 +37,5 @@ L'Ecuyer original implementation.
 For convenience, we provide a (uniform across implementations)
 seeding method which uses a 64-bit bit integer and an underlying
 SplitMix64 generator.
+
+seba (<mailto:sebastiano.vigna@unimi.it>)
